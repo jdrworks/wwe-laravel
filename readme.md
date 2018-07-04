@@ -4,5 +4,7 @@ To setup the project, you need to have [Vagrant][1] installed locally, and [Virt
 3. Run `php artisan migrate` to run any required migrations.
 4. Navigate to "http://vagrant.test:8080/" in your browser.
 
+*Note: if you get a 404 error in your browser, ssh into the VM (`vagrant ssh`) and try this command: `sudo systemctl restart apache2`*
+
 [1]: https://www.vagrantup.com/downloads.html
 [2]: https://www.virtualbox.org/wiki/Downloads
