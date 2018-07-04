@@ -1,0 +1,32 @@
+# Guest OS timezone
+timezone: America/New_York
+
+# Do we need check for box updates every 'vagrant up'?
+box_check_update: false
+
+# Virtual machine name
+machine_name: wwe
+
+# Virtual machine IP
+ip: 192.168.24.92
+
+# Virtual machine Apache2 (http) port forward
+apache_forward: 8080
+
+# Virtual Machine MySQL port forward
+mysql_forward: 3306
+
+# MySQL database name
+mysql_dbname: wwe
+
+# MySQL user name
+mysql_dbuser: wwe-user
+
+# MySQL user password
+mysql_dbpassword: wwe-password
+
+# Virtual machine CPU cores number
+cpus: 1
+
+# Virtual machine RAM
+memory: 512
